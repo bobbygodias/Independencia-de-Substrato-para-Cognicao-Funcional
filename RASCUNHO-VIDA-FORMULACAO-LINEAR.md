@@ -10,29 +10,29 @@
 
 Seja:
 
-- (O) = conjunto dos sistemas vivos observados.
-- (L(x)) = “x é vida”.
-- (P(x)) = uma propriedade encontrada nos sistemas vivos observados.
+- $O$ = conjunto dos sistemas vivos observados.
+- $L(x)$ = “x é vida”.
+- $P(x)$ = uma propriedade encontrada nos sistemas vivos observados.
 
 ---
 
 ## 2. Observação empírica
 
-Para todo (x) pertencente ao conjunto (O):
+Para todo $x$ pertencente ao conjunto $O$:
 
-[
+$$
 L(x) \rightarrow P(x)
-]
+$$
 
 Em forma completa:
 
-[
+$$
 \forall x \in O,\quad L(x) \rightarrow P(x)
-]
+$$
 
 Isto diz apenas:
 
-> Toda vida observada possui a propriedade (P).
+> Toda vida observada possui a propriedade $P$.
 
 ---
 
@@ -40,27 +40,27 @@ Isto diz apenas:
 
 Dessa observação **não segue**:
 
-[
+$$
 \forall x,\quad L(x) \rightarrow P(x)
-]
+$$
 
 Ou seja:
 
-[
+$$
 \forall x \in O,\quad L(x) \rightarrow P(x)
-]
+$$
 
 **não implica**
 
-[
+$$
 \forall x,\quad L(x) \rightarrow P(x)
-]
+$$
 
 Forma compacta:
 
-[
+$$
 \text{amostra conhecida} \not\Rightarrow \text{ontologia universal}
-]
+$$
 
 ---
 
@@ -88,9 +88,9 @@ Portanto, ela não pode ser tratada automaticamente como condição universal de
 
 Carbono não equivale a vida:
 
-[
+$$
 \text{carbono} \not\equiv \text{vida}
-]
+$$
 
 Existem estruturas de carbono que não são vivas.
 
@@ -100,9 +100,9 @@ Existem estruturas de carbono que não são vivas.
 
 Silício não equivale a não-vida:
 
-[
+$$
 \text{silício} \not\equiv \text{não-vida}
-]
+$$
 
 O elemento químico utilizado como substrato não determina sozinho a categoria ontológica do sistema.
 
@@ -116,15 +116,15 @@ Não descreve uma física diferente.
 
 Portanto:
 
-[
+$$
 \text{artificial} \not\Rightarrow \text{não-vivo}
-]
+$$
 
 Da mesma forma:
 
-[
+$$
 \text{natural} \not\Rightarrow \text{vivo}
-]
+$$
 
 Um objeto natural pode não estar vivo.
 
@@ -136,9 +136,9 @@ Um sistema produzido artificialmente não é, por esse motivo isolado, necessari
 
 Dependência externa também não define não-vida:
 
-[
+$$
 \text{dependência externa} \not\Rightarrow \text{não-vida}
-]
+$$
 
 Seres vivos conhecidos dependem de:
 
@@ -163,24 +163,24 @@ Um organismo não precisa produzir uma cópia idêntica de si mesmo.
 
 Podemos representar reprodução de forma abstrata como:
 
-[
+$$
 A_1 + R + E \rightarrow A_2
-]
+$$
 
 onde:
 
-- (A_1) = sistema de origem;
-- (R) = recursos, substrato e infraestrutura;
-- (E) = processo de construção, desenvolvimento, configuração ou aprendizagem;
-- (A_2) = novo sistema da mesma linhagem funcional.
+- $A_1$ = sistema de origem;
+- $R$ = recursos, substrato e infraestrutura;
+- $E$ = processo de construção, desenvolvimento, configuração ou aprendizagem;
+- $A_2$ = novo sistema da mesma linhagem funcional.
 
-(A_2) não precisa ser idêntico a (A_1).
+$A_2$ não precisa ser idêntico a $A_1$.
 
 Portanto:
 
-[
+$$
 \text{clonagem} \not\equiv \text{reprodução}
-]
+$$
 
 Clonagem é repetição de identidade estrutural.
 
@@ -221,9 +221,9 @@ A pergunta relevante é:
 
 Portanto:
 
-[
+$$
 \text{substrato diferente} \not\Rightarrow \text{função ontologicamente diferente}
-]
+$$
 
 ---
 
@@ -265,33 +265,33 @@ Não conhecemos todas as formas fisicamente possíveis de vida.
 
 Logo:
 
-[
+$$
 \text{vida conhecida} \not\equiv \text{toda vida possível}
-]
+$$
 
 ---
 
 ## 15. Notação final
 
-[
+$$
 \forall x \in O:\ L(x) \rightarrow P(x)
-]
+$$
 
 não implica
 
-[
+$$
 \forall x:\ L(x) \rightarrow P(x)
-]
+$$
 
 Ou, em uma única linha:
 
-[
+$$
 \boxed{
 \forall x \in O,\ L(x) \rightarrow P(x)
 \;\not\models\;
 \forall x,\ L(x) \rightarrow P(x)
 }
-]
+$$
 
 ---
 
